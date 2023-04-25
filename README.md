@@ -9,16 +9,16 @@ It's time to put away the Excel sheet and enter the world of programming with Py
 
 Before starting the assignment, be sure to complete the following steps:
 
-1. Create a new GitHub repo called `python-challenge`. **Do not add this homework assignment to an existing repository**. 
+* Create a new GitHub repo called `python-challenge`. **Do not add this homework assignment to an existing repository**. 
 
-2. Clone the new repository to your computer.
+* Clone the new repository to your computer.
 
-3. In each folder that you just created, add the following content:
+* In each folder that you just created, add the following content:
   - A new file called `main.py`. This will be the main script to run for each analysis.
   - A `Resources` folder that contains the CSV files you used. Make sure that your script has the correct path to the CSV file.
   - An `analysis` folder that contains your text file that has the results from your analysis.
 
-4. Push the above changes to GitHub.
+* Push the above changes to GitHub.
 
 ## PyBank
 
