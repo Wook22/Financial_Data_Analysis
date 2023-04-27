@@ -18,7 +18,6 @@ dec_date = []
 dec_index = []
 
 
-
 total_month = 0
 total_amount = 0
 value = 0
@@ -93,8 +92,3 @@ with open(finalScript, "w") as txtfile:
     txtfile.write(f"Greatest Decrease in Profits: {dec_date} (${str(decrease)})")
     
     
-# Making the change
-
-a = 1
-b = 2
-c = 3

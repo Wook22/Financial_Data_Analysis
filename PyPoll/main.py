@@ -5,8 +5,8 @@ election_data = os.path.join("..", "Resources", "election_data.csv")
 
 # Lists to store data
 ID = []
-County = []
-Candidate = []
+county = []
+candidate = []
 
 # with open(udemy_csv, encoding='utf-8') as csvfile:
 with open(election_data) as csvfile:
