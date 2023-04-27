@@ -93,3 +93,8 @@ with open(finalScript, "w") as txtfile:
     txtfile.write(f"Greatest Decrease in Profits: {dec_date} (${str(decrease)})")
     
     
+# Making the change
+
+a = 1
+b = 2
+c = 3
