@@ -63,8 +63,6 @@ with open(budget_data) as csvfile:
     dec_index = profit.index(decrease)
     dec_date = date[dec_index]
     
-    
-#change
 
 
 #Displaying information
@@ -77,3 +75,21 @@ print(f"Greatest Increase in Profits: {inc_date} (${str(increase)})")
 print(f"Greatest Decrease in Profits: {dec_date} (${str(decrease)})")
 
         
+finalScript = "result.txt"
+
+with open(finalScript, "w") as txtfile:
+    txtfile.write("Financial Analysis")
+    txtfile.write("\n")
+    txtfile.write("----------------------------")
+    txtfile.write("\n")
+    txtfile.write(f"Total Months: {str(total_month)}")
+    txtfile.write("\n")
+    txtfile.write(f"Total: ${str(total_amount)}")
+    txtfile.write("\n")
+    txtfile.write(f"Average Change: ${str(round(average_change,2))}")
+    txtfile.write("\n")
+    txtfile.write(f"Greatest Increase in Profits: {inc_date} (${str(increase)})")
+    txtfile.write("\n")
+    txtfile.write(f"Greatest Decrease in Profits: {dec_date} (${str(decrease)})")
+    
+    
