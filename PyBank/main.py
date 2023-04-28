@@ -72,11 +72,9 @@ print(f"Total: ${str(total_amount)}")
 print(f"Average Change: ${str(round(average_change,2))}")
 print(f"Greatest Increase in Profits: {inc_date} (${str(increase)})")
 print(f"Greatest Decrease in Profits: {dec_date} (${str(decrease)})")
+   
 
-        
-finalScript = "result.txt"
-
-with open(finalScript, "w") as txtfile:
+with open("result.txt", "w") as txtfile:
     txtfile.write("Financial Analysis")
     txtfile.write("\n")
     txtfile.write("----------------------------")
@@ -90,5 +88,4 @@ with open(finalScript, "w") as txtfile:
     txtfile.write(f"Greatest Increase in Profits: {inc_date} (${str(increase)})")
     txtfile.write("\n")
     txtfile.write(f"Greatest Decrease in Profits: {dec_date} (${str(decrease)})")
-    
     
