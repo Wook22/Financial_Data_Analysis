@@ -39,25 +39,37 @@ with open(election_data) as csvfile:
 
 # Print out the results to the console
 print("Election Results")
+print("")
 print("-------------------------")
+print("")
 print(f"Total Votes: {str(total_vote)}")
+print("")
+print("-------------------------")
+print("")
 for j in range(len(candidate)):
     print(f"{candidate[j]}: {str(candidate_percentage[j])}% ({str(candidate_vote[j])})")
+    print("")
 print("-------------------------")
+print("")
 print(f"Winner: {Winner}")
+print("")
 print("-------------------------")
 
 # Write the results to a text file
-with open('result.txt', 'x') as txtfile:
+with open('result.txt', 'w') as txtfile:
     txtfile.write("Election Results")
-    txtfile.write("\n")
+    txtfile.write("\n\n")
     txtfile.write("-------------------------")
-    txtfile.write("\n")
+    txtfile.write("\n\n")
+    txtfile.write(f"Total Votes: {str(total_vote)}")
+    txtfile.write("\n\n")
+    txtfile.write("-------------------------")
+    txtfile.write("\n\n")
     for k in range(len(candidate)):
         txtfile.write(f"{candidate[k]}: {str(candidate_percentage[k])}% ({str(candidate_vote[k])})")
-        txtfile.write("\n")
+        txtfile.write("\n\n")
     txtfile.write("-------------------------")
-    txtfile.write("\n")
+    txtfile.write("\n\n")
     txtfile.write(f"Winner: {Winner}")
-    txtfile.write("\n")
+    txtfile.write("\n\n")
     txtfile.write("-------------------------")
