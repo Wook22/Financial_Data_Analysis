@@ -44,10 +44,10 @@ Your analysis should align with the following results:
   Financial Analysis
   ----------------------------
   Total Months: 86
-  Total: $38382578
-  Average  Change: $-2315.12
-  Greatest Increase in Profits: Feb-2012 ($1926159)
-  Greatest Decrease in Profits: Sep-2013 ($-2196167)
+  Total: $22564198
+  Average Change: $-8311.11
+  Greatest Increase in Profits: Aug-16 ($1862002)
+  Greatest Decrease in Profits: Feb-14 ($-1825558)
   ```
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
@@ -75,14 +75,13 @@ Your analysis should align with the following results:
   ```text
   Election Results
   -------------------------
-  Total Votes: 3521001
+  Total Votes: 369711
   -------------------------
-  Khan: 63.000% (2218231)
-  Correy: 20.000% (704200)
-  Li: 14.000% (492940)
-  O'Tooley: 3.000% (105630)
+  Charles Casper Stockham: 23.049% (85213)
+  Diana DeGette: 73.812% (272892)
+  Raymon Anthony Doane: 3.139% (11606)
   -------------------------
-  Winner: Khan
+  Winner: Diana DeGette
   -------------------------
   ```
 
